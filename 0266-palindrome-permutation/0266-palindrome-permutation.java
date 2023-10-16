@@ -7,6 +7,6 @@ class Solution {
             if(!perSet.add(s.charAt(i)))
                 perSet.remove(s.charAt(i));
         }
-        return perSet.size() <= 1;
+        return perSet.size() == 1 || perSet.size() == 0 ;
     }
 }
